@@ -13,7 +13,7 @@ This is a solution to the [Order Summary component challenge on Frontend Mentor]
 
 ### Design
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Order Summary code component coding challenge](./design/desktop-preview.jpg)
 
 ### Links
 
