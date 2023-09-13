@@ -1,0 +1,132 @@
+:root {
+    --clr-primary-400: hsl(225, 100%, 94%); /* background */
+    --clr-secondary-200: hsl(245, 75%, 52%); /* button */
+
+    --clr-neutral-900: hsl(225, 100%, 98%); /* flex group */
+    --clr-neutral-400: hsl(224, 23%, 55%); /* text */
+    --clr-neutral-100: hsl(223, 47%, 23%);  /* Cancel Order active */
+
+    --ff-base: 'Red Hat Display', sans-serif;
+
+    --fw-light: 500;
+    --fw-regular: 700;
+    --fw-bold: 900;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+button {
+    font: inherit;
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+
+.music-icon {
+    width: 50px;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 16px;
+    background-color: var(--clr-primary-400);
+    display: grid;
+    place-items: center;
+}
+
+.order {
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px 20px 30px 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px -15px var(--clr-neutral-400);
+    max-width: 400px;
+}
+
+.order-content {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+
+
+@media(min-width: 400px) {
+    .order-content {
+        padding: 50px;
+    }
+}
+
+
+.order-title {
+    font-weight: var(--fw-bold);
+}
+
+.order-description {
+    color: var(--clr-neutral-400);
+    font-weight: var(--fw-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+.flex-group {
+    display: flex;
+    align-items: center;
+    background-color: var(--clr-neutral-900);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.plan-group {
+    margin-left: 15px;
+}
+
+.plan-title {
+    font-weight: var(--fw-bold);
+}
+
+.plan-price {
+    color: var(--clr-neutral-400);
+    font-weight: var(--fw-light)
+}
+
+.change-link {
+    color: var(--clr-secondary-200);
+    margin-left: 90px;
+}
+
+.change-link:is(:hover, :focus) {
+    color: hsl(245, 75%, 72%);
+}
+
+.pay-btn {
+    background-color: var(--clr-secondary-200);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding:15px;
+    box-shadow: 0px 20px 20px -5px hsl(224, 91%, 86%);
+}
+
+.pay-btn:is(:hover, :focus) {
+    background-color: hsl(245, 75%, 72%);
+}
+
+.cancel-link {
+    color: var(--clr-neutral-400);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cancel-link:is(:hover, :focus) {
+    color: var(--clr-neutral-100)
+}
