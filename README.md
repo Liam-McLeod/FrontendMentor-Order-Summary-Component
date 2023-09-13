@@ -17,8 +17,8 @@ This is a solution to the [Order Summary component challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-0isSOH2huZ)
+- [Live Site URL](https://liam-mcleod.github.io/FrontendMentor-Order-Summary-Component/)
 
 ## Author
 - Frontend Mentor - [@Liam-McLeod](https://www.frontendmentor.io/profile/Liam-McLeod)
